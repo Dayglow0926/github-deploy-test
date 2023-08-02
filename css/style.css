@@ -1,0 +1,29 @@
+@import url("./reset.css");
+
+body {
+  overflow: hidden;
+}
+body video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+body main {
+  position: absolute;
+  color: white;
+  width: 100vw;
+  text-align: center;
+  top: 5rem;
+  left: 0;
+  font-weight: 700;
+  font-size: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+body main a {
+  text-decoration: none;
+  color: white;
+  margin-top: 10rem;
+}
